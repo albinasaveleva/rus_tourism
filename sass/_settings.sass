@@ -1,0 +1,70 @@
+* 
+    box-sizing: border-box
+a
+    text-decoration: none
+    &:hover
+        opacity: 0.8
+        cursor: pointer
+html
+    scroll-behavior: smooth
+.body
+    background-image: linear-gradient(180deg, rgba(15,13,13,0.3) 5%, rgba(15,13,13,0.4) 10%, rgba(15,13,13,0.5) 15%, rgba(15,13,13,0.6) 20%, rgba(15,13,13,0.7) 25%, rgba(15,13,13,0.7) 30%, rgba(15,13,13,0.7) 35%, rgba(15,13,13,0.9) 40%, #0F0D0D 45%, #0F0D0D 46%, rgba(15,13,13,0.9) 50%, rgba(15,13,13,0.8) 55%, rgba(15,13,13,0.7) 60%, rgba(15,13,13,0.7) 65%, rgba(15,13,13,0.8) 70%, rgba(15,13,13,0.9) 75%, #0F0D0D 77%, #0F0D0D 85%, #0F0D0D 90%, #0F0D0D 95%, #0F0D0D 100%)
+    &::before
+        content: ""
+        background-image: url(../assets/images/bg-1.jfif)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        top: 0
+        left: 0
+        height: 4970px
+        z-index: -1
+        right: 0
+        position: absolute
+    &::after
+        content: ""
+        background-image: url(../assets/images/bg-2.jfif)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: bottom
+        top: 4970px
+        left: 0
+        height: 3580px
+        z-index: -1
+        right: 0
+        position: absolute
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 1160px
+    margin: auto
+.button
+    border: 2px solid #F7C765
+    border-radius: 40px
+    width: min-content
+.tag
+    @include tag
+.content-image-wrapper
+    position: relative
+    &::after
+        content: ""
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background: rgba(34, 24, 24, 0.15) 
+.content-image
+    width: inherit
+    height: inherit
+    object-fit: cover
+.logo
+    font-family: Yeseva One
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 50px
+    text-align: center
+    color: $grey_light
+

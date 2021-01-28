@@ -1,0 +1,51 @@
+.article-about
+    &__container
+        padding: 140px 0 100px
+    &__tag
+        margin-bottom: 25px
+    &__text
+        @include text_medium
+        color: $white
+        margin: 0
+        margin-bottom: 110px
+    &__content-wrapper
+        display: flex
+        width: inherit
+    &__content-blocks-wrapper
+        display: flex
+        flex-direction: row
+        flex-wrap: nowrap
+        width: inherit
+        justify-content: space-between
+    &__content-blocks
+        display: flex
+        flex-direction: column
+    &__content-description
+        display: flex
+        flex-direction: column
+        margin-right: 95px
+        &:not(:last-child)
+            margin-bottom: 45px
+    &__content-description-wrapper
+    &__content-text_large
+        @include text_large
+        color: $white
+        display: flex
+        justify-content: flex-end
+        padding-right: 100px
+        margin-bottom: 20px
+    &__content-text_small
+        @include text_small_medium
+        color: $white
+        display: flex
+        justify-content: flex-end
+
+.content-image-wrapper
+    &_1
+        width: 420px
+        height: 320px
+        margin-bottom: 105px
+    &_2
+        width: 500px
+        height: 750px
+        margin-top: 140px

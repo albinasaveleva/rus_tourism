@@ -1,0 +1,58 @@
+.article-Baikal
+    &__container
+        padding: 50px 0 100px
+    &__title
+        margin: 0
+        margin-bottom: 80px
+        @include title_large-2
+        color: $white
+        max-width: 920px
+    &__content-wrapper
+        width: 100%
+        display: flex
+    &__content-blocks-wrapper
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        width: 100%
+    &__content-block
+        display: flex
+        flex-direction: column
+        &_left
+            align-items: center
+            .article-Baikal__content-description-wrapper
+                margin-top: -90px
+                z-index: 0
+        &_right
+            align-items: flex-end
+            margin-top: 70px
+    &__content-description-wrapper
+    &__content-description
+        display: flex
+        flex-direction: column
+        &:not(:last-child)
+            margin-bottom: 45px
+    &__content-text_large
+        @include text_large-3
+        color: $white
+        display: flex
+        justify-content: flex-start
+        margin-bottom: 20px
+    &__content-text_small   
+        @include text_small_medium
+        color: $white
+        display: flex
+        justify-content: flex-start
+    &__content-text
+        @include text_small_regular-2
+        color: $white
+        max-width: 530px
+        margin: 0
+        margin-bottom: 125px
+.content-image-wrapper
+    &_10
+        width: 530px
+        height: 500px
+    &_11
+        width: 530px
+        height: 750px

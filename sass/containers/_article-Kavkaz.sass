@@ -1,0 +1,74 @@
+.article-Kavkaz
+    &__container
+        padding: 50px 0 100px
+    &__title
+        margin: 0
+        margin-bottom: 80px
+        @include title_large-2
+        color: $white
+        max-width: 920px
+    &__content-wrapper
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: inherit
+    &__content-block-wrapper
+        position: relative
+        margin-bottom: 190px
+    &__content-blocks-wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        width: inherit
+    &__content-block
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        &:nth-child(even)
+            margin-top: -100px
+        &:nth-child(odd)
+            padding-right: 65px
+    &__content
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+    &__content-description
+        position: absolute
+        bottom: -50px
+        left: -50px
+    &__content-text_large
+        @include text_large-3
+        color: $white
+        display: flex
+        justify-content: flex-end
+        padding-right: 100px
+        margin-bottom: 20px
+    &__content-text_small   
+        @include text_small_medium
+        color: $white
+        display: flex
+        justify-content: flex-end
+    &__content-title
+        @include title_small
+        color: $white
+        margin: 0
+        margin-bottom: 20px
+    &__content-text
+        @include text_small_regular-2
+        color: $white
+        max-width: 398px
+        margin: 0
+    &__tag
+        @include tag_small
+        margin-bottom: 10px
+.content-image-wrapper
+    &_7
+        width: 980px
+        height: 540px
+    &_8
+        width: 530px
+        height: 560px
+    &_9
+        width: 460px
+        height: 560px

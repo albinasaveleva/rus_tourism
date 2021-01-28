@@ -1,0 +1,98 @@
+$white: #ffffff
+$grey_light: rgba(255, 255, 255, 0.4)
+$yellow: #F7C765
+
+@mixin title
+    font-family: 'Yeseva One', cursive
+    font-style: normal
+    font-weight: normal
+@mixin title_large
+    @include title
+    font-size: 90px
+    line-height: 90px
+@mixin title_large-2
+    @include title_large
+    line-height: 100px
+    text-align: center
+@mixin title_small
+    @include title
+    font-size: 40px
+    line-height: 50px
+    text-align: center
+@mixin text_small
+    font-family: 'Montserrat', sans-serif
+    font-style: normal
+@mixin text_small_regular
+    @include text_small
+    font-weight: normal
+    font-size: 20px
+    line-height: 30px
+@mixin text_small_regular-2
+    @include text_small
+    font-weight: normal
+    font-size: 18px
+    line-height: 28px
+@mixin text_small_medium
+    @include text_small
+    font-weight: 500
+    font-size: 18px
+    line-height: 28px
+@mixin text_medium
+    font-family: 'Yeseva One', cursive
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 50px
+    text-align: center
+@mixin text_large
+    font-family: 'Yeseva One', cursive
+    font-style: normal
+    font-weight: normal
+    font-size: 90px
+    line-height: 70px
+@mixin text_large-2
+    @include text-large
+    font-size: 120px
+@mixin text_large-3
+    @include text-large
+@mixin text_button
+    font-family: 'Montserrat', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 20px
+    line-height: 24px
+    text-align: center
+@mixin tag
+    font-family: 'Montserrat', sans-serif
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 22px
+    letter-spacing: 0.2em
+    color: $yellow
+@mixin tag_small 
+    @include tag
+    font-size: 14px
+    line-height: 17px
+@mixin tag_medium
+    @include tag
+    font-size: 15px
+    line-height: 18px
+@mixin tag_large
+    @include tag
+    font-size: 18px
+    line-height: 22px
+@mixin nav
+    font-family: 'Montserrat', sans-serif
+    font-style: normal
+    text-align: center
+@mixin nav_regular
+    @include nav
+    font-weight: normal
+    font-size: 20px
+    line-height: 24px   
+@mixin nav_medium
+    @include nav
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
