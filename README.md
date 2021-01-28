@@ -1,1 +1,1 @@
-# rus_tourism
+# Demo: https://albinasaveleva.github.io/rus_tourism/
